@@ -1,16 +1,12 @@
-# React + Vite
+# React Calculator
+This is a simple 4-function calculator made using React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Resources
+This calculator's architecture is largely based on this video: 
+- https://www.youtube.com/watch?v=DgRrrOt0Vr8&pp=ygUjcmVhY3QgY2FsY3VsYXRvciB3ZWIgZGV2IHNpbXBsaWZpZWQ%3D 
 
-Currently, two official plugins are available:
+## Progress
+Current time stamp of video is 15:31
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Highlights
+- Since the project is made using React, the calculator is using state management instead of manual value re-writes with JavaScript.
